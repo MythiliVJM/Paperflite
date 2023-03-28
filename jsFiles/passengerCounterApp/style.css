@@ -1,0 +1,55 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+            
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    background-color:rgb(188, 254, 232)
+    
+}
+h1{
+    text-align: center;
+    font-family:'Cambria';
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    font-family:'Cambria';
+    font-weight: bold;
+}
+
+
+button{
+    border:none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom:5px;
+    border-radius: 5px;
+    margin-left: 200px;
+    display: inline-block;
+}
+#increment-btn,#decrement-btn{
+    background: darkred;
+}
+#save-btn{
+    background-color: green;
+}
+p{
+    font-weight: bold;
+    font-size: 30px;
+    font-family:'Cambria';
+}
+.buttons{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 200px;
+}
